@@ -15,7 +15,11 @@ def map_to_square(source_array)
   source_array.map { |n| n**2 }
 end
 
+<<<<<<< HEAD
 def reduce_to_total(source_array, starting_point = 0)
+=======
+def reduce_to_total(source_array, starting_point: 0)
+>>>>>>> 65865fc397ef36c97bec6c122fb116ae2a54274d
   n = 0
   total = starting_point
   while n < source_array.length do
